@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO 1</title>
+</head>
+<body>
+    <!--form, label, fildset, legend, imput, option, select, button, br, radio, tel, date, email, checkbox, submit, for, id-->
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="nome_obr" name="nome" required>
+            <br>
+            <br>
+            <label for="date">Data de Nascimento</label>
+            <input type="date" id="data_obr" date="data" required>
+            <br>
+            <br>
+            <label for="email_usuario">E-mail do Aluno:</label>
+            <input type="email" id="email_usuario_obr" name="email_usuario" required placeholder="aluno@gmail.com">
+            <br>
+            <br>
+            <label for="senha">Senha de acesso:</label>
+            <input type="senha" id="senha_obr" number="senha" required placeholder="******">
+            <br>
+            <br>
+            <label for="telefone">Telefone de Emergência</label>
+            <input type="tel" id="telefone_obr" numeber="telefone" required placeholder="(00)00000-0000">
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Preferência de Estudo</legend>
+            <p>Área de interesse:</p>
+            <input type="checkbox" id="fe" name="Front-end">
+            <label for="fe">Front-end</label>
+            <br>
+            <input type="checkbox" id="be" name="Back-end">
+            <label for="be">Back-end</label>
+            <br>
+            <input type="checkbox" id="de" name="Design">
+            <label for="de">Design</label>
+            <br>
+            <input type="checkbox" id="da" name="Dados">
+            <label for="da">Dados</label>
+            <br>
+            <br>
+            <label for="como_conheceu">Como conheceu a escola?</label>
+            <select id="como_conheceu" name="como_conheceu">
+                <option value="">Selecione...</option>
+                <option value="in">Introdução</option>
+                <option value="go">Google</option>
+                <option value="re">Redes Sociais</option>
+            </select>
+        </fieldset>
+        <br>
+        <button type="submit">Matricular</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
